@@ -82,5 +82,15 @@ ul{
   padding: 10px 20px;
   background: #262626;
   color: #ffffff;
-  
+  font-size: 15px;
+  border: 1px solid #fff;
+  margin: 10px 0;
+}
+
+btn:hover{
+  opacity: 0.7;
+}
+
+.showcase h2, .showcase p {
+  margin-bottom: 10px;
 }
