@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
+  font-weight: normal;
 }
 body{
   background: #000000;
@@ -12,44 +12,16 @@ body{
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
 }
+ul li a{
+  text-decoration: none;
+}
 li{
   font-family: 'Roboto', sans-serif;
-  font-weight: normal;
+  font-weight: bolder;
+  font-size: 20px;
 }
 ul{
   list-style: none;
-}
-.fill {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden
-}
-.fill img {
-  flex-shrink: 0;
-  min-width: 100%;
-  min-height: 100%
-}
-.lptext{
-  font-weight: normal;
-}
-
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 33.33%;
-  padding: 5px;
-}
-
-.section{
-  display: flex;
-  justify-content: space-between;
-  height: 400px;
-}
-.section img{
-  height: auto;
 }
 
 .container{
@@ -64,7 +36,7 @@ ul{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
+  height: 50px;
   padding: 20px 0;
 }
 .nav-brand{
@@ -104,17 +76,18 @@ ul{
 }
 
 /*Showcase*/
-.head-main{
+.showcase{
   width: 100%;
   height: 550px;
-  background: url('./img/app-cel.jpg') no-repeat center center/cover;
+  background: url('/img/WOMAN.png') no-repeat right center;
   border-radius: 10px;
-  padding-bottom: 50px;
-  margin-bottom: 25px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-bottom: -85px;
+  margin-top: -40px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
+  align-items: left;
 }
 
 .btn{
@@ -142,7 +115,7 @@ btn:hover{
 /*Listado Horizontal*/
 .list-main{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 25px;
   margin: 10px 0;
   color: #000000;
@@ -175,8 +148,8 @@ btn:hover{
 .banner-one{
   width: 100%;
   height: 350px;
-  background: url('./img/news5.jpg');
-  margin-bottom: 40px;
+  background: url('./img/FONDO-2_01.png') no-repeat right center/cover;
+  margin-bottom: 20px;
 }
 
 .banner-one .content{
@@ -230,6 +203,31 @@ btn:hover{
 
 .links a i{
   font-size: 3rem;
+}
+/* News Cards */
+.news-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin: 70px 0;
+}
+
+.news-cards img {
+  width: 100%;
+  height: 180px;
+}
+
+.news-cards h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.news-cards a {
+  padding: 10px 0;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: bold;
 }
 
 /*FOOTER*/
