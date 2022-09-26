@@ -61,10 +61,11 @@ ul{
 .nav-main ul li a{
   padding: 5px;
   color: #000000;
+  font-weight: bolder;
 }
 
 .nav-main ul li a:hover {
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid blue;
 }
 .nav-main {
   margin-top: 10px;
