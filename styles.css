@@ -37,7 +37,7 @@ ul{
   justify-content: space-between;
   align-items: center;
   height: 50px;
-  padding: 20px 0;
+  padding: 50px 0;
 }
 .nav-brand{
   width: 40px;
@@ -66,6 +66,7 @@ ul{
 
 .nav-main ul li a:hover {
   border-bottom: 2px solid blue;
+  
 }
 .nav-main {
   margin-top: 10px;
@@ -173,7 +174,7 @@ btn:hover{
 
 .banner-two .content{
   width: 60%;
-  padding: 90px 0 0 30px;
+  padding: 90px 0 0 400px;
 }
 
 .banner-two p, .banner-two h2{
@@ -187,7 +188,7 @@ btn:hover{
 
 .social p{
   text-align: center;
-  font-size: 30px;
+  font-size: 10px;
   margin-bottom: 20px;
   color: #000000;
 }
