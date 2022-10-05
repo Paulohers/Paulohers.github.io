@@ -3,6 +3,9 @@
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
 }
+body{
+  overflow-x: hidden;
+}
 div.main-container{
   display: flex;
   flex-direction: column;
