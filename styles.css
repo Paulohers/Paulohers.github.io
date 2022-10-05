@@ -1,282 +1,126 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
 }
-body{
-  background: #000000;
-  color:  #ffffff;
-  background-color: #ffffff;
-  font-size: 16px;
-  font-family: 'Roboto', sans-serif;
-}
-ul li a{
-  text-decoration: none;
-}
-li{
-  font-family: 'Roboto', sans-serif;
-  font-weight: bolder;
-  font-size: 20px;
-}
-ul{
-  list-style: none;
-}
-
-.container{
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-}
-
-/*Navigation*/
-.nav-main{
-  font-size: 17px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 50px;
-  padding: 50px 0;
-}
-.nav-brand{
-  width: 40px;
-  border-radius: 10px;
-}
-
-/*NAV LEFT*/
-.nav-main ul{
-  display: flex;
-}
-
-.nav-main ul li {
-  padding: 8px;
-}
-
-.nav-main ul.nav-menu {
-  flex: 1;
-  margin-left: 20px;
-}
-
-.nav-main ul li a{
-  padding: 5px;
-  color: #000000;
-  font-weight: bolder;
-}
-
-.nav-main ul li a:hover {
-  border-bottom: 2px solid blue;
-  
-}
-.nav-main {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.nav-menu-right{
-  font-size: 15px;
-}
-
-/*Showcase*/
-.showcase{
-  width: 100%;
-  height: 550px;
-  background: url('/img/WOMAN.png') no-repeat right center;
-  border-radius: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  margin-bottom: -85px;
-  margin-top: -40px;
+div.main-container{
   display: flex;
   flex-direction: column;
-  align-items: left;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
-
-.btn{
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  font-weight: bold;
-  padding: 10px 20px;
-  background: #262626;
-  color: #ffffff;
-  font-size: 15px;
-  border: 1px solid #fff;
-  margin: 10px 0;
+div.flex-container-2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
 }
-
-btn:hover{
-  opacity: 0.7;
+div.flex-container-3{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
 }
-
-.head-main h2, .head-main p {
-  margin-bottom: 10px;
-  width: 70%;
-  float: left;
+div.flex-contianer-4{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
 }
-/*Listado Horizontal*/
-.list-main{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 25px;
-  margin: 10px 0;
-  color: #000000;
+h2.text-title{
+  text-align: center;
 }
-
-.list-main img{
+.img-wo {
   width: 100%;
   height: auto;
-  border-radius: 10px;
+}
+.img-balon{
+  width: 100%;
+  height: auto;
+}
+.nav-main{
+  width: 100%;
+}
+.img-logo{
+  width: auto;
+  height: 10%;
+}
+.container-lud{
+  background-image: url(/img/FONDO-2_01.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.list-main h3{
-  font-size: 20px;
-  margin: 10px 0;
-  color: #000000;
+.container-lud2{
+background: rgb(9,9,121);
+background: linear-gradient(22deg, rgba(9,9,121,1) 38%, rgba(2,116,249,1) 78%);
+width: 100%;
 }
-
-.list-main a{
-  padding: 10px 0;
-  color: #000000;
-  text-transform: uppercase;
+.hover-underline-animation {
   display: inline-block;
-  font-weight: bold;
+  position: relative;
+  color: #0087ca;
 }
 
-.list-main a:hover{
-  text-decoration: underline;
-}
-
-.banner-one{
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
   width: 100%;
-  height: 350px;
-  background: url('./img/FONDO-2_01.png') no-repeat right center/cover;
-  margin-bottom: 20px;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
 }
 
-.banner-one .content{
-  width: 60%;
-  padding: 90px 0 0 30px;
-  color: #000000;
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
-
-.banner-one p, .banner-one h2{
-  margin: 10px 0 20px 0;
-}
-
-.banner-two{
-  width: 100%;
-  height: 350px;
-  background: url('./img/IMAGENB.jpg') no-repeat center center/cover;
-  margin-bottom: 40px;
-  margin-top: -18px;
-}
-
-.banner-two .content{
-  width: 60%;
-  padding: 90px 0 0 400px;
-}
-
-.banner-two p, .banner-two h2{
-  margin: 10px 0 20px 0;
-}
-
-/*Sociales*/
-.social{
-  margin: 65px;
-}
-
-.social p{
-  text-align: center;
-  font-size: 10px;
-  margin-bottom: 20px;
-  color: #000000;
-}
-
-.links{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.links a{
-  color: #000000;
-  margin: 0 30px;
-}
-
-.links a i{
-  font-size: 3rem;
-}
-/* News Cards */
-.news-cards {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 25px;
-  margin: 70px 0;
-}
-
-.news-cards img {
-  width: 100%;
-  height: 180px;
-}
-
-.news-cards h3 {
-  font-size: 20px;
-  margin: 10px 0;
-}
-
-.news-cards a {
-  padding: 10px 0;
-  color: #f2f2f2;
-  text-transform: uppercase;
-  display: inline-block;
-  font-weight: bold;
-}
-
-/*FOOTER*/
-.footer-links{
-  background: #2f3640;
-  color: #616161;
-  font-size: 12px;
-  padding: 35px 0;
-}
-
-.footer-container{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
-  align-items: flex-start;
-  justify-content: center;
-}
-
-.footer-container ul{
-  margin: 0 auto;
-}
-
-.footer-container ul li{
-  line-height: 2.8;
-}
-
-.footer{
-  background: #2f3640;
-  color: #616161;
-  font-size: 12px;
-  padding: 20px 0;
-  text-align: center;
-  padding: 20px;
-}
-
-@media (max-width: 700px) {
-  .list-main{
-    grid-template-columns: repeat(2,1fr);
+/*Desktop Enviroment*/
+@media only screen and (min-width: 768px) {
+  div.flex-container-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
   }
-  .banner-one .content{
+  .img-wo {
+    width: auto;
+    height: 600px;
+  }
+  .text-card1{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  div.flex-container-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+  }
+  div.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
   }
-  .banner-two .content{
+  .card-1{
     width: 100%;
   }
-  .footer-links .footer-container{
-    grid-template-columns: repeat(2,1fr)
+  .w-icons{
+    width: 100%;
+  }
+  .card-body{
+    width: 100%;
+  }
+  .row{
+    flex-wrap: nowrap;
+    width: 100%;
   }
 }

@@ -6,166 +6,190 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bolas Gastricas</title>
   <link rel="shortcut icon" href="/img/Logo/ICON.ico" class="nav-brand">
-  <link rel="stylesheet" href="./styles.css">
-  <!--GOOGLE FONTS-->
+  <!--GOOGLE FONTS ROBOTO-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="./styles.css">
+  
+  <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
-  <!--TOP NAVBAR-->
- <div>
-  <nav class="nav-main  border-1 border-bottom" style="height: 60px;box-shadow: 0px 0px 36px 15px rgba(0, 0, 0, 0.28);margin-top: -1px;">
-    <a href="./index.html"><img  class="nav-brand" src="/img/Logo/GLOBAL BALLOON 3.png" style="height: 70px;width:auto;margin-left: 1%;" alt="img logo"></a>
-    <ul class="nav-menu" style="margin-top: 1.5%;">
-      <li>
-        <a href="/acercaN.html" class="fw-light text-primary">Acerca de Nosotros</a>
-      </li>
-      <li>
-        <a href="#" class="text-primary fw-light">Resultados Probados</a>
-      </li>
-      <li>
-        <a href="#" class="text-primary fw-light">Ubicaciones</a>
-      </li>
-      <li>
-        <a href="#" class="text-primary fw-light">Contáctanos</a>
-      </li>
-      <li>
-        <a href="#" class="text-primary fw-light">Blog</a>
-      </li>
-    </ul>
-    <ul style="margin-top: 1.5%;">
-      <li>
-        <a href="#">
-          <i class="text-primary fa-brands fa-facebook"></i>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="text-primary fa-brands fa-instagram"></i>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="text-primary fa-brands fa-tiktok"></i>
-        </a>
-      </li>
-    </ul>
-  </nav>
- </div>
-
- <div>
-  <header class="showcase">
-    <h2 class="text-primary" style="font-size:xxx-large;font-weight: bold;line-height:40px;margin-top: 13%;">El Mejor Sistema<p></p> Para Perder Peso<p></p> Sin Cirugía</h2>
-  </header>
-  <section class="banner-one">
-    <div class="news-cards" style="display: flex;">
-      <div style="margin-left: 1%; margin-top: 3%;width: 100%;">
-        <h2 class="text-light fw-bold">¿Que Es El Balón Gástrico?</h2>
-        <p class="text-light">El sistema GLOBAL BALLOON es un balón gástrico duradero hecho de silicona de alta calidad con un 
-          sistema de válvula y está diseñado especialmente para permanecer en el estómago durante un periodo de hasta 6 meses. 
-          Ayuda a su cuerpo a acostumbrarse a porciones de comida más pequeñas y saludables.</p>
-          <a href="#" class="btn btn-light text-primary">MÁS INFORMACIÓN</a>
+  <div class="main-container">
+    <!--Navbar-->
+    <nav class="navbar nav-main navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="/img/Logo/GLOBAL BALLOON 3.png" alt="Logo" width="150" height="50" class="d-inline-block align-text-top"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link fw-light text-primary hover-underline-animation" aria-current="page" href="#">Acerca de Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-light text-primary hover-underline-animation" href="#">Resultados Probados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-light text-primary hover-underline-animation" href="#">Ubicaciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-light text-primary hover-underline-animation" href="#">Contáctanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-light text-primary hover-underline-animation" href="#">Blog</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <i class="text-primary fa-brands fa-facebook me-3"></i>
+            <i class="text-primary fa-brands fa-instagram me-3"></i>
+            <i class="text-primary fa-brands fa-tiktok"></i>
+          </form>
+        </div>
       </div>
-      <div>
-        <img class="mx-auto d-block" src="/img/BALON PNG OP3.png" style="height: 350px;width:auto;">
+    </nav>
+    <!--Seccion 1-->
+    <div class="flex-container-2" >
+      <h2 class="text-title text-primary fw-bolder fs-1">El Mejor Sistema Para Perder Peso Sin Cirugía</h2>
+      <img class="img-wo" src="/img/WOMAN.png">
+    </div>
+    <!--Seccion 2-->
+    <div class="flex-container-3 container-lud">
+        <div class="card-body text-center"style="margin-bottom: 2%;">
+          <h5 class="card-title text-light fw-bold text-title-card1">¿Que Es El Balón Gástrico?</h5>
+          <p></p>
+          <p class="card-text text-light text-card1">El sistema GLOBAL BALLOON es un balón gástrico duradero hecho de silicona de alta calidad con un sistema de válvula y está diseñado especialmente para permanecer en el estómago durante un periodo de hasta 6 meses. Ayuda a su cuerpo a acostumbrarse a porciones de comida más pequeñas y saludables.</p>
+          <a href="#" class="btn-card1 btn btn-light text-primary card-link">MÁS INFORMACIÓN</a>
+        </div>
+      <div class="card-body">
+        <img class="img-balon" src="/img/BALON PNG OP3.png">
       </div>
-      <!--SECTION BOLA GASTRICA-->
-      <div style="margin-right: 1%;margin-top: 7%;width: 100%;">
-
-        <div class="row">
-          <div class="col">
-            <img src="/img/icons/ICONO NO1.png" style="margin-left: 70px;margin-top: 12px;height: 20px;width: 30px;">
+      <div class="card-body">
+        <div class="container text-center">
+          <div class="row g-2 g-lg-3 w-icons">
+            <div class="col">
+              <div class="p-4 "><img class="icon-card" src="/img/icons/ICONO NO1.png" width="50px;"></div>
+            </div>
+            <div class="col">
+              <div class="p-4 text-light  text-icon" >Las tasas de éxito más altas en pérdida de peso</div>
+            </div>
           </div>
-          <div class="col-8">
-            <p class="text-light">Las tasas de éxito más altas en pérdida de peso</p>
+          <div class="row g-2 g-lg-3 w-icons">
+            <div class="col">
+              <div class="p-4"><img class="icon-card" src="/img/icons/ICONO BALANZA.png" width="50px;"></div>
+            </div>
+            <div class="col">
+              <div class="p-3 text-light text-icon">El balón gástrico cumple con todos los estándares de calidad</div>
+            </div>
+            </div>
+            <div class="row g-2 g-lg-3 w-icons">
+              <div class="col">
+                <div class="p-4"><img class="icon-card" src="/img/icons/ICONO ESTOMAGO.png" width="50px;"></div>
+              </div>
+              <div class="col">
+                <div class="p-3 text-light text-icon">El único balón ajustable</div>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <img src="/img/icons/ICONO BALANZA.png" style="margin-top: 6px;margin-left: 70px;height: 30px;width: 30px;">
           </div>
-          <div class="col-8">
-            <p class="text-light">El balón gástrico cumple con todos los estándares de calidad</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <img src="/img/icons/ICONO ESTOMAGO.png" style="margin-top: 6px;margin-left: 70px;height: 30px;width: 30px;">
-          </div>
-          <div class="col-8">
-            <p class="text-light">El único balón ajustable</p>
-          </div>
-        </div>
-
+          
       </div>
     </div>
-  </section>
-  <section class="banner-two">
-    <div class="text-center content">
-        <h4 class="text-light fw-bold">Historias De Éxitos De Los Pacientes</h4>
-        <a href="https://google.com" class="btn btn-light text-primary" style="font-family: 'Roboto', sans-serif;font-weight: bolder;">LEER MÁS</a>  
-    </div> 
-  </section>
- </div>
- <!--FOOTER-->
- <div class="container-fluid" style="margin-top: -30px;background: rgb(9,9,121);background: linear-gradient(22deg, rgba(9,9,121,1) 38%, rgba(2,116,249,1) 78%);">
-  <footer class="py-5">
 
-  <div class="row">
-  <div class="col-6 col-md-4 mb-3">
-  <img src="/img/Logo/LOGO ICON BLANCO.png" style="height: 50px; width:auto;">
-  <a class="text-light nav-link" style="font-size: 13px;line-height:30px;">
-    El balón gástrico de GLOBAL BALLOON Medsil, está formado por un globo de silicona de alta calidad con un sistema de válvula y está diseñado 
-    especialmente para permanecer en el estómago durante un periodo de hasta 6 meses.
-    <p></p>
-    Toda la materia prima que compone el balón dispone del certificado de la FDA para su uso en implantes humanos. Además, el producto cumple con 
-    todos los requisitos de la norma ISO 10993.
-    La resistencia a la fatiga del balón gástrico Medsil ha sido verificada a través de más de un millón de ciclos de aplastamiento, llevados a 
-    cabo en una solución líquida similar a los jugos gástricos.
-  </a>
-  </div>
-  <div class="col-6 col-md-2 mb-3" style="margin-top: 3%;margin-left:8%;">
-  <h5 class="text-light" style="font-weight: bolder;">GLOBAL BALLOON</h5>
-  <ul class="nav flex-column">
-  <li class="nav-item mb-2 fw-light"><a href="#" class="nav-link p-0 text-light" style="font-weight: lighter;">Acerca de Nosotros</a></li>
-  <li class="nav-item mb-2 fw-light"><a href="#" class="nav-link p-0 text-light" style="font-weight: lighter;">Resultados Probados</a></li>
-  <li class="nav-item mb-2 fw-light"><a href="#" class="nav-link p-0 text-light" style="font-weight: lighter;">Contáctanos</a></li>
-  <li class="nav-item mb-2 fw-light"><a href="#" class="nav-link p-0 text-light" style="font-weight: lighter;">Ubicaciones</a></li>
-  </ul>
-  </div>
-  <div class="col-md-4 offset-md-1 mb-3" style="margin-top: 250px;">
-    <h2 class="d-flex fw-light justify-content-end text-light" style="font-size: 20px;">Siguenos En Nuestras Redes Sociales</h2>
-    <ul class="list-unstyled d-flex justify-content-end">
-      <li style="margin-left: 5%;">
-        <a href="#">
-          <i class="text-light fa-2x fa-brands fa-facebook"></i>
-        </a>
-      </li>
-      <li style="margin-left: 5%;">
-        <a href="#">
-          <i class="text-light fa-2x fa-brands fa-instagram"></i>
-        </a>
-      </li>
-      <li style="margin-left: 5%;">
-        <a href="#">
-          <i class="text-light fa-2x fa-brands fa-tiktok"></i>
-        </a>
-      </li>
-      </ul>
-  </div>
-  </div>
-  <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-  <p class="text-light">© 2022 Company, Inc. Reservados todos los derechos.</p>
- 
-  </div>
+    <!--FOOTER Section-->
+    <div class="flex-container-4 container-lud2">
 
-  </footer>
+      <footer class="text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <img src="/img/Logo/LOGO ICON BLANCO.png" width="auto" height="100px">
+              <p class="text-light " style="line-height: 30px; font-size: 13px;">
+                El balón gástrico de GLOBAL BALLOON Medsil, está formado por un globo de silicona de alta calidad 
+                con un sistema de válvula y está diseñado especialmente para permanecer en el estómago durante un 
+                periodo de hasta 6 meses.
+                Toda la materia prima que compone el balón dispone del certificado de la FDA para su uso en implantes 
+                humanos. Además, el producto cumple con todos los requisitos de la norma ISO 10993. 
+                La resistencia a la fatiga del balón gástrico Medsil ha sido verificada a través de más de un millón 
+                de ciclos de aplastamiento, llevados a cabo en una solución líquida similar a los jugos gástricos.
+              </p>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-12 mb-4 mb-md-0" style="margin-top: 10%;">
+              <h5 class="text-uppercase text-left text-light fw-bold">GLOBAL BALLOON</h5>
+              <ul class="list-unstyled mb-0 text-left">
+                <li>
+                  <a href="#!" class="text-light fw-light" style="text-decoration: none;">Acerca de Nosotros</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-light fw-light" style="text-decoration: none;">Resultados Probados</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-light fw-light" style="text-decoration: none;">Contáctanos</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-light fw-light" style="text-decoration: none;">Ubicaciones</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-12 mb-4 mb-md-0" style="margin-top: 10%;">
+              <h5 class="text-uppercase text-left text-light fw-bold">Siguenos En Nuestras Redes Sociales</h5>
+              <ul class="list-unstyled d-flex justify-content-center">
+                <li style="margin-left: 5%;">
+                  <a href="#">
+                    <i class="text-light fa-2x fa-brands fa-facebook"></i>
+                  </a>
+                </li>
+                <li style="margin-left: 5%;">
+                  <a href="#">
+                    <i class="text-light fa-2x fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+                <li style="margin-left: 5%;">
+                  <a href="#">
+                    <i class="text-light fa-2x fa-brands fa-tiktok"></i>
+                  </a>
+                </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center text-light p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-light" href="https://mdbootstrap.com/">GlobalBaloon.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </div>
   </div>
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <script>
+    ScrollReveal({
+      reset: true,
+      distance:'0px',
+      duration: 700,
+      delay:100
+    });
+    //Container 1
+    ScrollReveal().reveal('.flex-container-2', { delay: 100, origin:'bottom', mobile:false });
+    ScrollReveal().reveal('.flex-container-3', { delay: 100, origin:'bottom', mobile:false });
+    ScrollReveal().reveal('.flex-container-4', { delay: 100, origin:'bottom', mobile:false });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
