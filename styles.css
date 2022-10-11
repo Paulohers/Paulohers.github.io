@@ -1,129 +1,96 @@
-* {
-  box-sizing: border-box;
+*{
   font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-}
-body{
-  overflow-x: hidden;
-}
-div.main-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-div.flex-container-2{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-}
-div.flex-container-3{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-}
-div.flex-contianer-4{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  flex-direction: row;
-}
-h2.text-title{
-  text-align: center;
-}
-.img-wo {
-  width: 100%;
-  height: auto;
-}
-.img-balon{
-  width: 100%;
-  height: auto;
-}
-.nav-main{
-  width: 100%;
 }
 .img-logo{
-  width: auto;
-  height: 10%;
+  max-height: 50px;
+  align-items: flex-start;
 }
-.container-lud{
+.navbar{
+  padding-top: 0px;
+  margin: 0;
+}
+.container-section1{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+.title-section1{
+  align-self: center;
+}
+.img-section1{
+  height: auto;
+/*width: -moz-available;         
+  width: -webkit-fill-available; 
+  width: fill-available;*/
+}
+.img-section2{
   background-image: url(/img/FONDO-2_01.png);
   background-repeat: no-repeat;
   background-size: cover;
+  height: auto;
+  overflow: hidden;
 }
-
-.container-lud2{
-background: rgb(9,9,121);
-background: linear-gradient(22deg, rgba(9,9,121,1) 38%, rgba(2,116,249,1) 78%);
-width: 100%;
+.text-section2{
+  text-align: left;
+  margin-left: 10px;
 }
-.hover-underline-animation {
-  display: inline-block;
-  position: relative;
-  color: #0087ca;
-}
-
-.hover-underline-animation:after {
-  content: '';
-  position: absolute;
+.img-section2-1{
+  height: auto;
   width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #0087ca;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
 }
+.card1{
+  align-self: center;
+}
+.card2{
+  align-self: center;
+}
+.icon-section1-1{
+  width: 80px;
+}
+.text-section2-1{
+  width: 60%;
+  margin-left: 20%;
+  align-self: center;
+}
+.row-section2{
+  width: 100%;
+  height: 50px;
+  margin-bottom: 50px;
+}
+.container-lud2{
+  background: rgb(9,9,121);
+  background: linear-gradient(22deg, rgba(9,9,121,1) 38%, rgba(2,116,249,1) 78%);
+  width: 100%;
+  overflow: hidden;
+  }
 
-.hover-underline-animation:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-/*Desktop Enviroment*/
-@media only screen and (min-width: 768px) {
-  div.flex-container-2{
+@media screen and (max-width: 760px) {
+  .container-section1{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
+    flex-wrap: wrap;
   }
-  .img-wo {
-    width: auto;
-    height: 600px;
+  .img-section1{
+    width: 100%;
+    height: auto;
   }
-  .text-card1{
-    text-align: justify;
-    margin-left: 20px;
-    margin-right: 20px;
+  .img-section2{
+    background-image: url(/img/FONDO-2_01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
   }
-  div.flex-container-3{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    
+  .title-section1{
+    align-self: center;
+    text-align: center;
   }
-  div.container{
+  .container-section2{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 100%;
+    flex-wrap: wrap;
   }
-  .card-1{
-    width: 100%;
-  }
-  .w-icons{
-    width: 100%;
-  }
-  .card-body{
-    width: 100%;
-  }
-  .row{
-    flex-wrap: nowrap;
-    width: 100%;
+  .card2{
+    margin-left: 10px;
+    margin-top: 50px;
   }
 }
