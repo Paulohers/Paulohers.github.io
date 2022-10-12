@@ -63,7 +63,25 @@
   width: 100%;
   overflow: hidden;
   }
+.img-section3{
+  background-image: url(/img/2.png);
+  height: 500px;
+  width: auto;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.section3-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
 @media screen and (max-width: 760px) {
   .container-section1{
     display: flex;
