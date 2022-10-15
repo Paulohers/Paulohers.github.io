@@ -62,6 +62,7 @@ ScrollReveal().reveal(".slide-up", {
   scale: 0.5
 });
 
+document.getElementById
 //Animation CARD Stuff
 document.querySelector('#toggle-button').addEventListener('click', function() {
   document.querySelector('#img1').classList.toggle('collapsed');

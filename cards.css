@@ -196,113 +196,10 @@
             color:#fff;            
         }
 
-        .img-card.iCard-style3 {
-            text-align: center;
-        }
 
-        .img-card.iCard-style3 .card-title {
-            top: 80%;
-            font-size: 30px;
-            color: #fff;
-            position: absolute;
-            width: 100%;
-            font-family: 'Roboto', sans-serif;
-            z-index: 1;
-        }
-
-        .img-card.iCard-style3 .card-text {
-            color: #636060;
-        }
-
-        .img-card.iCard-style3 .card-link {
-            border-top: 1px solid #e8e8e8;
-        }
-            .img-card.iCard-style3 .card-link a {
-                color: #585858;
-            }
-            .img-card.iCard-style3 .card-link a:after {            
-                background: #585858;
-            }
-
-    .img-card.iCard-style4 {
-        text-align: right;
-    }
-
-    .img-card.iCard-style4 .card-caption {
-        position: absolute;
-        width: 100%;
-        font-family: 'Open Sans', sans-serif;
-        z-index: 1;
-        top: 10px;
-        right: 10px;
-        color: #fff;
-    }
-
-    .img-card.iCard-style4 .card-title {
-        width: 100%;
-        padding: 20px 0px 12px 0;
-        color: #E91E63;
-    }
-
-        .img-card.iCard-style4 .card-title span {
-            font-size: 25px;
-            margin-right: 12px;
-        }
-
-    .img-card.iCard-style4 .toggle {
-        cursor: pointer;
-        padding: 8px 0px 13px 0px;
-        width: 55px;
-    }
     
-    .img-card.iCard-style4 .toggle span, .img-card.iCard-style4 .toggle span:nth-child(2), .img-card.iCard-style4 .toggle span:nth-child(3) {
-        position: absolute;
-        width: 8px;
-        height: 8px;
-        background: #E91E63;
-        cursor: pointer;
-    }
 
-    .img-card.iCard-style4 .toggle span:nth-child(1) {
-        right: 15px;
-    }
-
-    .img-card.iCard-style4 .toggle span:nth-child(2) {
-        right: 27px;
-    }
-
-    .img-card.iCard-style4 .toggle span:nth-child(3) {
-        right: 39px;
-    }
-
-    .img-card.iCard-style4 .card-text {
-        opacity: 0;
-        line-height: 0;
-        padding-bottom: 0;
-        color: #4c4c4c;
-
-        -webkit-transition: ease-in-out 0.5s;
-        -moz-transition: ease-in-out 0.5s;
-        -o-transition: ease-in-out 0.5s;
-        transition: ease-in-out 0.5s;
-    }
-
-    .img-card.iCard-style4 .toggle.active ~ .card-text{
-        opacity: 1;
-        line-height: 1.5;
-        padding-bottom: 10px;
-    }
-
-    .img-card.iCard-style4 .card-link {
-        border-top:1px solid #e8e8e8;
-    }
-
-        .img-card.iCard-style4 .card-link a {
-            color: #E91E63;
-        }
-        .img-card.iCard-style4 .card-link a:after {            
-            background: #E91E63;
-        }
+        
 
 /*COLLAPSE CARD ANIMATION*/
 
@@ -315,3 +212,4 @@
 .section.collapsed {
   width: 100%;
 }
+
