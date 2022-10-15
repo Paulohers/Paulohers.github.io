@@ -17,7 +17,7 @@ ScrollReveal().reveal(".title", {
 
 ScrollReveal().reveal(".fade-in", {
   duration: 600,
-  delay: 200,
+  delay: 700,
   move: 0
 });
 ScrollReveal().reveal(".fade-in2", {
@@ -60,4 +60,12 @@ ScrollReveal().reveal(".slide-up", {
   easing: "cubic-bezier(.37,.01,.74,1)",
   opacity: 0.3,
   scale: 0.5
+});
+
+//Animation CARD Stuff
+document.querySelector('#toggle-button').addEventListener('click', function() {
+  document.querySelector('#img1').classList.toggle('collapsed');
+});
+document.querySelector('#toggle-button2').addEventListener('click', function() {
+  document.querySelector('#img2').classList.toggle('collapsed');
 });
