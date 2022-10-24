@@ -62,10 +62,11 @@ ScrollReveal().reveal(".slide-up", {
   scale: 0.5
 });
 
-//Animation CARD Stuff
-document.querySelector('#toggle-button').addEventListener('click', function() {
-  document.querySelector('#img1').classList.toggle('collapsed');
-});
-document.querySelector('#toggle-button2').addEventListener('click', function() {
-  document.querySelector('#img2').classList.toggle('collapsed');
+// Example: 2 Dynamically created
+$('button').magnificPopup({
+  items: {
+      src: '<div class="white-popup">Dynamically created popup</div>',
+      type: 'inline'
+  },
+  closeBtnInside: true
 });
